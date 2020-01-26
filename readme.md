@@ -30,7 +30,17 @@
 
 
 5. mysql
+   5.1 https://www.cnblogs.com/zjc2018/p/10700423.html
+   5.2 https://www.jianshu.com/p/276d59cbc529
+   5.3 new user
+          create user 'pingpongus_test'@'%' identified by 'pingpongus_test';
+          GRANT ALL PRIVILEGES ON pingpongus_test.* TO 'pingpongus_test'@'%'   IDENTIFIED BY 'pingpongus_test' WITH GRANT OPTION;
+          flush privileges;
 
+
+6. git
+    6.1  https://www.cnblogs.com/zk1023/p/9821692.html
+7. 
 
 
    

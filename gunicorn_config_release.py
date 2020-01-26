@@ -6,9 +6,9 @@ import multiprocessing
 # debug = True
 loglevel = 'debug'
 bind = "0.0.0.0:8080"
-pidfile = "/home/pingpongus/pythonserver/pingpongus/approot/log/gunicorn.pid"
-accesslog = "/home/pingpongus/pythonserver/pingpongus/approot/log/access.log"
-errorlog = "/home/pingpongus/pythonserver/pingpongus/approot/log/debug.log"
+pidfile = "/home/pingpongus/pythonserver/virtualenv/pingpongus/app/log/gunicorn.pid"
+accesslog = "/home/pingpongus/pythonserver/virtualenv/pingpongus/app/log/access.log"
+errorlog = "/home/pingpongus/pythonserver/virtualenv/pingpongus/app/log/debug.log"
 daemon = True
 
 # 启动的进程数
