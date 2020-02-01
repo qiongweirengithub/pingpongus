@@ -9,7 +9,7 @@ bind = "0.0.0.0:8080"
 pidfile = "/home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/app/log/gunicorn.pid"
 accesslog = "/home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/app/log/access.log"
 errorlog = "/home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/app/log/debug.log"
-daemon = True
+daemon = False
 
 # 启动的进程数
 workers = multiprocessing.cpu_count()
