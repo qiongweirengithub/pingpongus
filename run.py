@@ -24,7 +24,7 @@ connect = pymysql.connect(
 logger = log_utils.get_logger("app.log")
 
 # route()方法用于设定路由；类似spring路由配置
-@app.route('/')
+@app.route('/hello')
 def hello_world():
 	# 新建游标
     cursor = connect.cursor()
@@ -45,9 +45,9 @@ def htmls_t2():
 
 
 
-@app.route('/index3')
-def htmls_t3():
-    return render_template('jsclient3.html');
+@app.route('/sync_state')
+def sync_state():
+    return render_template('sync_state.html');
 
 
 @app.route('/gobang_game')
@@ -61,6 +61,14 @@ def gobang_game_demo():
     return render_template('gobang_game_demo.html');
 
 
+
+@app.route('/h5demo')
+def h5demo():
+    return render_template('h5demo.html');
+
+@app.route('/h5snake')
+def h5snake():
+    return render_template('h5snake.html');
 
 if __name__ == '__main__':
     # app.run(host, port, debug, options)
