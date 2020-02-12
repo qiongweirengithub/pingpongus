@@ -1,0 +1,54 @@
+2020-02-12 12:21:06,413 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:46] - INFO: started  schedule sync process
+2020-02-12 12:21:06,413 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:90] - INFO: started  schedule sync thread
+2020-02-12 12:21:06,413 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:46] - INFO: started  schedule sync process
+2020-02-12 12:21:06,413 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:90] - INFO: started  schedule sync thread
+2020-02-12 12:21:06,414 - ./gobang_games_action_center.py[line:131] - INFO: start servering
+2020-02-12 12:21:06,414 - ./gobang_games_action_center.py[line:131] - INFO: start servering
+2020-02-12 12:21:11,021 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"login"}
+2020-02-12 12:21:11,021 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"login"}
+2020-02-12 12:21:11,022 - ./gobang_games_action_center.py[line:49] - INFO: {"event_type": "login_success", "player_id": "a02735ca-c767-487e-bb69-d120192b8eb9"}
+2020-02-12 12:21:11,022 - ./gobang_games_action_center.py[line:49] - INFO: {"event_type": "login_success", "player_id": "a02735ca-c767-487e-bb69-d120192b8eb9"}
+2020-02-12 12:21:17,882 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"create_room","player_id":"a02735ca-c767-487e-bb69-d120192b8eb9","room_name":"new_room","room_id":"1"}
+2020-02-12 12:21:17,882 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"create_room","player_id":"a02735ca-c767-487e-bb69-d120192b8eb9","room_name":"new_room","room_id":"1"}
+2020-02-12 12:21:17,882 - ./gobang_games_action_center.py[line:55] - INFO: {"event_type": "create_room_success", "room_id": "1"}
+2020-02-12 12:21:17,882 - ./gobang_games_action_center.py[line:55] - INFO: {"event_type": "create_room_success", "room_id": "1"}
+2020-02-12 12:21:20,937 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":7,"poyi":5}
+2020-02-12 12:21:20,937 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":7,"poyi":5}
+2020-02-12 12:21:20,938 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "7,5"}
+2020-02-12 12:21:20,938 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "7,5"}
+2020-02-12 12:21:21,125 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 7, "poyi": 5}]
+2020-02-12 12:21:21,125 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 7, "poyi": 5}]
+2020-02-12 12:21:21,125 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:21,125 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:21,125 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:21,125 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:23,155 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"ai_a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":6,"poyi":4}
+2020-02-12 12:21:23,155 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"ai_a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":6,"poyi":4}
+2020-02-12 12:21:23,155 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "6,4"}
+2020-02-12 12:21:23,155 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "6,4"}
+2020-02-12 12:21:23,336 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "ai_a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 6, "poyi": 4}]
+2020-02-12 12:21:23,336 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "ai_a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 6, "poyi": 4}]
+2020-02-12 12:21:23,336 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:23,336 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:23,337 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:23,337 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:25,206 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":12,"poyi":8}
+2020-02-12 12:21:25,206 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":12,"poyi":8}
+2020-02-12 12:21:25,206 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "12,8"}
+2020-02-12 12:21:25,206 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "12,8"}
+2020-02-12 12:21:25,347 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 12, "poyi": 8}]
+2020-02-12 12:21:25,347 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 12, "poyi": 8}]
+2020-02-12 12:21:25,347 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:25,347 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:25,347 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:25,347 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:26,808 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"ai_a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":8,"poyi":4}
+2020-02-12 12:21:26,808 - ./gobang_games_action_center.py[line:90] - INFO: new message: {"action":"make_move","player_id":"ai_a02735ca-c767-487e-bb69-d120192b8eb9","room_id":"1","poxi":8,"poyi":4}
+2020-02-12 12:21:26,808 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "8,4"}
+2020-02-12 12:21:26,808 - ./gobang_games_action_center.py[line:67] - INFO: {"event_type": "make_move_success", "move_info": "8,4"}
+2020-02-12 12:21:26,956 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "ai_a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 8, "poyi": 4}]
+2020-02-12 12:21:26,956 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:105] - INFO: roomid: 1  need sync frame : [{"action": "make_move", "player_id": "ai_a02735ca-c767-487e-bb69-d120192b8eb9", "room_id": "1", "poxi": 8, "poyi": 4}]
+2020-02-12 12:21:26,956 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:26,956 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:111] - INFO: player 1 : a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:26,956 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
+2020-02-12 12:21:26,956 - /home/qiongwei/mycode/pythonenv/virtualenv/pingpongus/gobang_games_core.py[line:113] - INFO: send msg to player1: a02735ca-c767-487e-bb69-d120192b8eb9
