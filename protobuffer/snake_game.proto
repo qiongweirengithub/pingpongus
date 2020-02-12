@@ -1,0 +1,79 @@
+syntax = "proto3";
+package snack_game;
+
+
+message login_request {
+    string action = 1;
+}
+
+message login_result {
+    string event_type = 1;
+    string player_id = 1;
+}
+
+
+message create_room_request {
+    string action = 1
+    string player_id = 1;
+    string room_id = 1;
+    string room_name = 1;
+}
+
+message create_room_result {
+    string event_type = 1;
+    string room_id = 1;
+}
+
+
+message join_room_request {
+    string action = 1
+    string player_id = 1;
+    string room_id = 1;
+}
+
+message join_room_result {
+    string event_type = 1;
+    string room_id = 1;
+}
+
+
+message make_move_request {
+    string action = 1
+    string player_id = 1;
+    string room_id = 1;
+    string to_go = 1;
+}
+
+message make_move_result {
+    string event_type = 1;
+    string move_info = 1;
+}
+
+
+message make_move_request {
+    string action = 1
+    string player_id = 1;
+    string room_id = 1;
+    string to_go = 1;
+}
+
+message make_move_result {
+    string event_type = 1;
+    string move_info = 1;
+}
+
+message sync_frames {
+    string event_type = 1;
+    Repeated  user_move frame_array = 6;
+}
+
+message user_move {
+    string action = 1
+    string player_id = 1;
+    string room_id = 1;
+    string to_go = 1;
+}
+
+
+
+

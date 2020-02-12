@@ -70,6 +70,18 @@ def h5demo():
 def h5snake():
     return render_template('h5snake.html');
 
+@app.route('/bubble')
+def bubble():
+    return render_template('Bubble.html');
+
+@app.route('/modelcontrl')
+def modelcontrl():
+    return render_template('Model-Animation-Control.html');
+
+@app.route('/hellothreejs')
+def hello():
+    return render_template('HelloWorld.html');    
+
 if __name__ == '__main__':
     # app.run(host, port, debug, options)
     # 默认值：host=127.0.0.1, port=5000, debug=false
